@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
 	parser.add_argument('-vo', '--video-output-path',
 		type=str,
-        default='./output.avi',
+        default='/content/drive/MyDrive/output.avi',
 		help='The path of the output video file')
 
 	parser.add_argument('-l', '--labels',
